@@ -9,13 +9,13 @@ export class AppComponent
 {
   constructor()
   {
-    this.playAudio()
+    //this.playAudio();
   }
 
   private playAudio()
   {
     let audio = new Audio();
-    audio.src = "../../../assets/audio/mixkit-science-fiction-computer-voice-238.wav";
+    audio.src = "../../../assets/audio/mixkit-glitchy-sci-fi-bass-suspense-686.wav";
     audio.load();
     audio.play();
   }
